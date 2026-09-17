@@ -250,7 +250,7 @@ func renderReportPNG(info ClientInfo, rows []ProbeResult, path string, modes []s
 		y += 16
 	}
 	d.Face = smallF
-	foot := "github.com/MiaM1ku/taierspeedtest"
+	foot := "github.com/Agff45/taierspeedtest"
 	drawText(img, smallF, (width-d.MeasureString(foot).Round())/2, h-18, foot, colMuted, false)
 
 	f, err := os.Create(path)

@@ -9,13 +9,13 @@
 任意 Linux amd64/arm64 机器，无需预装依赖：
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/MiaM1ku/taierspeedtest/main/run.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/Agff45/taierspeedtest/main/run.sh)
 ```
 
 指定测速点：
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/MiaM1ku/taierspeedtest/main/run.sh) --points 湖北
+bash <(curl -fsSL https://raw.githubusercontent.com/Agff45/taierspeedtest/main/run.sh) --points 湖北
 ```
 
 `run.sh` 只下载对应架构的 Release 并执行。二进制内嵌中文字体，可直接生成 PNG。
@@ -23,7 +23,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/MiaM1ku/taierspeedtest/main/
 ## 本地编译
 
 ```bash
-git clone https://github.com/MiaM1ku/taierspeedtest.git
+git clone https://github.com/Agff45/taierspeedtest.git
 cd taierspeedtest
 go build -o taierspeedtest .
 ./taierspeedtest
